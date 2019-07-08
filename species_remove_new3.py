@@ -9,7 +9,7 @@ list_file = sys.argv[1] #List of species to keep
 lis = open (list_file).readlines()
 #print(lis)
 
-file_paths = sys.argv[2] #sequence files 
+file_paths = sys.argv[2] #Sequence files 
 i=0
 files = glob.glob(file_paths)
 for file in files:
