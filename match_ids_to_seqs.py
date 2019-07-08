@@ -5,6 +5,7 @@ Created on Wed Feb 15 14:04:14 2017
 
 @author: gc12847
 """
+
 mcl_file = sys.argv[1] #MCL output
 seqfile = sys.argv[2] #File with all original sequences
 
