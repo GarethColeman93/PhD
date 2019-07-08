@@ -10,7 +10,6 @@ Created on Wed Feb 15 14:04:14 2017
 from Bio import SeqIO
 import sys   
 
-
 filename = sys.argv[1] #this is the BLAST output file .tsv
 allsequences = sys.argv[2] #this a concatenated fasta file of all the sequences used to make the original blastdb
 outfile = sys.argv[3] #this is output file
