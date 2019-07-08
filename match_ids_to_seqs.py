@@ -9,7 +9,7 @@ Created on Wed Feb 15 14:04:14 2017
 mcl_file = sys.argv[1]
 seqfile = sys.argv[2]
 
-f = open ('/Users/garethcoleman/Documents/uni work/PhD work/Bacteria_rooting/gene_trees/out.seq.mci.I15', 'r')
+f = open ('mcl_file', 'r')
 from Bio import SeqIO
 #seqs = SeqIO.index('ALLseqs.fas', 'fasta') #seq is a dictionary, key = record IDs, values = records
 seqs = {}
