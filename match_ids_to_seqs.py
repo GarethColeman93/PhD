@@ -5,9 +5,9 @@ Created on Wed Feb 15 14:04:14 2017
 
 @author: gc12847
 """
-    
-mcl_file = sys.argv[1]
-seqfile = sys.argv[2]
+
+mcl_file = sys.argv[1] #MCL output
+seqfile = sys.argv[2] #File with all original sequences
 
 f = open ('mcl_file', 'r')
 from Bio import SeqIO
