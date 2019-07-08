@@ -10,7 +10,7 @@ import csv, re, os
 from ete3 import PhyloTree
 from Bio import SeqIO
 
-table_used = sys.argv[1]
+table_used = sys.argv[1] #Table with original names and names to replace
 reader = csv.reader(open(table_used, 'r'))
 file_to_species = {}
 for row in reader:
@@ -33,7 +33,7 @@ for file in protein_files:
 import glob
 
 #loop through all lines in all files and replace names with correct names form library file_to_species - many of these were specific to my dataset
-file_paths = sys.argv[2]
+file_paths = sys.argv[2] #.phy files to change
 files = glob.glob(file_paths)
 for file in files:
     bootstrapped_trees = []
