@@ -11,7 +11,7 @@ seqfile = sys.argv[2]
 
 f = open ('mcl_file', 'r')
 from Bio import SeqIO
-#seqs = SeqIO.index('ALLseqs.fas', 'fasta') #seq is a dictionary, key = record IDs, values = records
+#seqs = SeqIO.index('seqfile', 'fasta') #seq is a dictionary, key = record IDs, values = records
 seqs = {}
 for seq_record in SeqIO.parse(seqfile,'fasta'):
     seqs[seq_record.id] = seq_record    
