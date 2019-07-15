@@ -1,7 +1,8 @@
-#Script to reformat names in fasta alignment files for concatentation
+#Script to reformat names in fasta alignment files for concatenation
 
 import fileinput
 import glob
+import sys
 
 file_paths = sys.argv[1]
 files = glob.glob(file_paths)
