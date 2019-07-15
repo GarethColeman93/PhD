@@ -5,7 +5,7 @@ Created on Tue Jun 20 14:47:03 2017
 
 @author: gc12847
 """
-import csv, re, os
+import csv, re, os, sys
 from ete3 import PhyloTree
 from Bio import SeqIO
 
