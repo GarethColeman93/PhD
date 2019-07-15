@@ -4,6 +4,7 @@ import fileinput
 import glob
 from itertools import islice
 from Bio import SeqIO
+import sys
 
 list_file = sys.argv[1] #List of species to keep
 lis = open (list_file).readlines()
